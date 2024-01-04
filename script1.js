@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         high.textContent = `${count} of`;
-        tot.textContent = `${count} of`;
+        tot.textContent = `${count}`;
         // Call the function to update the count based on the dropdown value
         updateCountBasedOnDropdown(taskItem);
     };
